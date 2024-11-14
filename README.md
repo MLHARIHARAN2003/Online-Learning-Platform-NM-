@@ -72,5 +72,6 @@ Ensure the following software is installed on your machine:
    ```bash
    git clone https://github.com/your-username/online-learning-platform.git
    cd online-learning-platform
-
-
+   ```
+2. **Install Dependencies**:
+    ```bash
