@@ -249,4 +249,18 @@ End-to-End Tests: Simulate user flows on the frontend using tools like Cypress o
 
 ---
 ##10. Screenshots or Demo
-
+**admin dashboard**
+![image](https://github.com/user-attachments/assets/8820e852-14fa-4686-b5e5-29eb175cb159)
+**admin all course**
+![image](https://github.com/user-attachments/assets/51779057-29b3-4c5b-9566-c3f8ac01f419)
+**home page**
+![image](https://github.com/user-attachments/assets/3aa91a9d-7fa9-4d9b-b7e7-d8ded2728c26)
+**login**
+![image](https://github.com/user-attachments/assets/a594e663-ed8c-4479-a0fc-566a9e833098)
+**register**
+![image](https://github.com/user-attachments/assets/23cb7742-16a6-44a7-a1c5-bb3a04b4492f)
+**student dashboard**
+![image](https://github.com/user-attachments/assets/61de03e7-a4c0-4e70-9f5c-d9a781b599fe)
+**teacher dashboard**
+![image](https://github.com/user-attachments/assets/71e99ea2-cfde-4713-a10b-5b38b7603695)
+---
