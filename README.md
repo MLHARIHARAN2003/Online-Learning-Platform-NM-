@@ -1,10 +1,14 @@
-Full Stack Development with MERN
-Project Documentation format
-1. Introduction
-•	Project Title: ONLINE LEARNING PLATFORM 
-•	Team Members: ML.Hariharan, N.Guru Prasath, A.Allen royan, A.Franklin
+# Online Learning Platform Full Stack Development with MERN
 
-# Online Learning Platform
+## Introduction
+
+**Project Title: ONLINE LEARNING PLATFORM** 
+
+**Team Members:**
+ML.Hariharan, 
+N.Guru Prasath,
+A.Allen royan,
+A.Franklin
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
