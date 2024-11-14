@@ -1,15 +1,19 @@
 # Online Learning Platform Full Stack Development with MERN
 
-## Introduction
+## Introduction:
 
 **Project Title: ONLINE LEARNING PLATFORM** 
 
 **Team Members:**
-ML.Hariharan, 
-N.Guru Prasath,
-A.Allen royan,
-A.Franklin
 
+ML.Hariharan, 
+
+N.Guru Prasath,
+
+A.Allen royan,
+
+A.Franklin
+---
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Architecture](#architecture)
@@ -279,3 +283,21 @@ End-to-End Tests: Simulate user flows on the frontend using tools like Cypress o
 ![image](https://github.com/user-attachments/assets/71e99ea2-cfde-4713-a10b-5b38b7603695)
 
 ---
+
+## 11. Known Issues
+
+Video player may not load in certain browsers due to CORS issues.
+Course search functionality may have performance lag with large datasets.
+
+---
+
+## 12. Future Enhancements
+
+Mobile App: Create a native mobile app version for iOS and Android.
+Real-Time Chat: Add a chat feature for students to interact with educators.
+Gamification: Introduce badges and leaderboards to boost engagement.
+Payment Integration: Add a payment gateway for purchasing premium courses.
+
+---
+
+
