@@ -45,7 +45,7 @@ const Register = () => {
       <>
          <nav className="bg-gray-800 text-white p-4">
             <div className="container mx-auto flex justify-between items-center">
-               <h2 className="text-2xl font-bold">Study App</h2>
+               <h2 className="text-2xl font-bold">Scholarly Odyssey</h2>
                <div className="space-x-4">
                   <Link to="/" className="hover:underline">Home</Link>
                   <Link to="/login" className="hover:underline">Login</Link>
