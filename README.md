@@ -111,3 +111,142 @@ backend/
 
 ---
 ```
+---
+## 5. Running the Application
+```
+Frontend:
+
+bash
+Copy code
+cd client
+npm run dev
+Backend:
+
+bash
+Copy code
+cd server
+npm start
+```
+---
+## 6. API Documentation
+Endpoints
+GET /
+Description: Retrieves a list of resources.
+Request: No parameters required.
+Response: A JSON array of resources.
+Example Response:
+json
+CopyInsert
+```
+[
+  {
+    "id": 1,
+    "name": "Resource 1"
+  },
+  {
+    "id": 2,
+    "name": "Resource 2"
+  }
+]
+```
+Errors:
+404 Not Found: No resources found.
+POST /
+Description: Creates a new resource.
+Request: A JSON object with the resource data.
+Request Body:
+json
+CopyInsert
+```
+{
+  "name": "New Resource"
+}
+```
+Response: A JSON object with the created resource data.
+Example Response:
+json
+CopyInsert
+```
+{
+  "id": 3,
+  "name": "New Resource"
+}
+```
+Errors:
+400 Bad Request: Invalid request body.
+409 Conflict: Resource already exists.
+GET /:id
+Description: Retrieves a resource by ID.
+Request: The ID of the resource as a path parameter.
+Response: A JSON object with the resource data.
+Example Response:
+json
+CopyInsert
+```
+{
+  "id": 1,
+  "name": "Resource 1"
+}
+```
+Errors:
+404 Not Found: Resource not found.
+PUT /:id
+Description: Updates a resource by ID.
+Request: The ID of the resource as a path parameter and a JSON object with the updated resource data.
+Request Body:
+json
+CopyInsert
+```
+{
+  "name": "Updated Resource"
+}
+```
+Response: A JSON object with the updated resource data.
+Example Response:
+json
+CopyInsert
+```
+{
+  "id": 1,
+  "name": "Updated Resource"
+}
+```
+Errors:
+404 Not Found: Resource not found.
+400 Bad Request: Invalid request body.
+DELETE /:id
+Description: Deletes a resource by ID.
+Request: The ID of the resource as a path parameter.
+Response: No content.
+Errors:
+404 Not Found: Resource not found.
+
+---
+## 7. Authentication
+
+Authentication is managed using JWT (JSON Web Tokens). The token is stored in the client’s local storage and included in API requests for protected routes. Access levels are set by user roles:
+
+Students: Access only to enrolled courses.
+Educators: Can create and manage their own courses.
+Admin: Access all of the resources 
+
+---
+## 8. User Interface:
+
+The platform provides a user-friendly and intuitive interface with features such as:
+
+Course Listing: Grid view of available courses with search and filtering.
+Course Content: Detailed view of each course’s content, including videos, quizzes, and assignments.
+Progress Tracking: Users can view their progress on enrolled courses
+
+---
+## 9. Testing
+**Testing Strategy:**
+
+Unit Tests: Focus on individual components and API endpoints.
+Integration Tests: Ensure components work together as expected.
+End-to-End Tests: Simulate user flows on the frontend using tools like Cypress or Jest
+
+---
+##10. Screenshots or Demo
+
