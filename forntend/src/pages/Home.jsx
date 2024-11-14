@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Nav from '../components/utils/Nav';
-//import AllCourses from './AllCourses';
+import AllCourses from '../components/utils/AllCourses';
 
 const Home = () => {
    return (
@@ -28,7 +28,7 @@ const Home = () => {
     <div className="py-16">
        <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Trending Courses</h2>
        <div className="container mx-auto">
-          {/* <AllCourses /> */}
+          <AllCourses />
        </div>
     </div>
  </>
