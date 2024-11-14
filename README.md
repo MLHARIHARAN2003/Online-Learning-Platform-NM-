@@ -33,7 +33,7 @@ The Online Learning Platform enables educators to create and share courses with 
 **Features**
 - **User Authentication**: Secure login and registration for students and educators.
 - **Course Management**: Educators can add, edit, and delete courses, along with sections and content.
-- **Video Content and Quizzes**: Each course module supports videos, quizzes, and assignments.
+- **Video Content**: Each course module supports videos, quizzes, and assignments.
 - **Certificate Generation**: Completion certificates are generated for students upon course completion.
 - **Search and Filter**: Users can search and filter courses by category or educator.
 
@@ -63,8 +63,8 @@ The backend is built with **Node.js** and **Express.js** to handle RESTful APIs 
 ## 3. Setup Instructions
 ### Prerequisites
 Ensure the following software is installed on your machine:
-- **Node.js** (version X.X.X)
-- **MongoDB** (version X.X.X)
+- **Node.js** 
+- **MongoDB** 
 - **Git** (for cloning the repository)
 
 ### Installation
@@ -75,3 +75,37 @@ Ensure the following software is installed on your machine:
    ```
 2. **Install Dependencies**:
     ```bash
+     cd backend
+     npm i
+     npm start
+    # Install frontend dependencies
+    cd frontend
+    npm i
+    npm run dev 
+    ```
+
+---
+
+## 4. Folder Structure
+**frontend**
+frontend/
+├── public/
+├── src/
+|   ├──assets/
+│   ├── components/         # UI components
+│   ├── pages/              # Main pages (Home, Courses, etc.)
+│   ├── app.jsx           
+│   ├── index.js           
+│   └── main.jsx
+└── package.json
+
+**backend**
+backend/
+├── config/                 # Configuration files
+├── controllers/            # Controllers for handling business logic
+├── schemas/                 # Mongoose models
+├── routes/                 # Express routes
+├── middleware/             # Middleware for authentication, validation
+└── index.js               # Entry point of the backend server
+
+---
