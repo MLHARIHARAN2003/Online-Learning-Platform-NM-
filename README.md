@@ -87,6 +87,7 @@ Ensure the following software is installed on your machine:
 ---
 
 ## 4. Folder Structure
+```
 **frontend**
 frontend/
 ├── public/
@@ -109,3 +110,4 @@ backend/
 └── index.js               # Entry point of the backend server
 
 ---
+```
